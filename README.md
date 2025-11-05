@@ -16,18 +16,22 @@ On macOS (using Homebrew):
 brew install ffmpeg
 ```
 ## How to Run
-Save the Script: Save the code as `flac2aac.sh.`
 
-Permissions: Make the script executable:
-```bash
-chmod +x flac2aac.sh`
-```
+## Instructions to Run the Script
 
-Execute: Navigate to the directory containing your FLAC files and run:
-```bash
-./flac2aac.sh
-```
-The script will process all .flac files in the current directory and provide a summary of the results.
+1.  Save the downloaded script file (named `flac2aac.sh`) directly into the folder that contains your FLAC music files.
+
+2.  Open your Terminal application and use the `cd` (change directory) command to move into that specific music folder.
+    ```bash
+    # Example: Adjust this path to match the location of your music files
+    cd ~/Music/MyFLACCollection/
+    ```
+
+3.  **Execute the Script:** Run the script by explicitly using the `bash` interpreter:
+    ```bash
+    bash flac2aac.sh
+    ```
+The script will immediately begin processing the FLAC files within that directory.
 
 | Setting | Resulting Value |
 | :--- | :--- |
